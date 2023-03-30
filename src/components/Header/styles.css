@@ -1,0 +1,97 @@
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #e1e9ee;
+  height: 64px;
+  line-height: 64px;
+  padding: 0 24px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  margin-top: 10px;
+  /*margin-right: 596px;*/
+}
+
+.logo img {
+  height: 34px;
+  align-self: flex-start;
+}
+
+.rightColumn {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-item {
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 24px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.navigation-item:hover {
+  color: rebeccapurple;
+}
+
+.navigation-item.active {
+  color: #0077b5;
+  border-bottom: 2px solid #0077b5;
+}
+
+.buttonSignIn {
+  margin-top: 14px;
+  padding-left: 24px;
+  border: 1px solid transparent;
+  text-align: center;
+  border-radius: 20px;
+  background-color: transparent;
+  max-height: 34px;
+  color: rebeccapurple;
+}
+
+.buttonSignIn:hover {
+  background-color: whitesmoke;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.buttonSignUp {
+  margin-top: 14px;
+  padding-left: 24px;
+  border: 1px solid transparent;
+  text-align: center;
+  border-radius: 20px;
+  height: 34px;
+  background-color: greenyellow;
+}
+
+.buttonSignUp:hover {
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+.dash {
+  margin-top: 22px;
+  border-left: 1px solid darkgray;
+  height: 20px;
+}

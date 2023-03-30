@@ -1,0 +1,32 @@
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #e1e9ee;
+  height: 64px;
+  line-height: 64px;
+  padding: 0 24px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  margin-top: 10px;
+  margin-right: 596px;
+}
+
+.logo img {
+  height: 34px;
+  align-self: flex-start;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
